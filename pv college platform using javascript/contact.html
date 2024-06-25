@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>College platform</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, pv educational institute , thanjavur">
+ <meta name="author" content=" Preethi">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/pv.jpg">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<iframe src="https://www.google.com/maps/thanjavur.com" width="300" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div class="con">
+<h1><u>Contact</u></h1>
+<h3>PV College<br>
+leo nagar,
+Thanjavur,</h3><pre><h3>
+Phone : +91 1234567891<br>
+Email :  infotech@pv.edu<br>
+Facebook : http://facebook.com<br>
+</h3>
+</pre>
+</div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are student please enter your student number:</strong>
+<center>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+</center>
+<hr>
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="https://www.facebook.com">Preethi</a> </p>
+  <center>
+  <a href="https://www.facebook.com">Facebook</a>
+  <a href="https://www.twitter.com">Twitter</a>
+  <a href="https://www.youtube.com">Youtube</a>
+  </center>
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "student id is wrong";
+    } else {
+        text = "great! clarify the doubt with us";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+
+</body>
+
+</html>
